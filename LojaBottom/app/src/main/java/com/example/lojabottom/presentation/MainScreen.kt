@@ -18,7 +18,7 @@ fun MainScreen() {
     val navController = rememberNavController()
 
     Scaffold(
-        containerColor = Color(0xFFFFFFFF), // Define a cor de fundo diretamente no Scaffold
+        containerColor = Color(0xFFFFFFFF),
         bottomBar = {
             BottomBar(navController = navController)
         }
